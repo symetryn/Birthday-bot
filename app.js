@@ -19,6 +19,7 @@ client.on("message", async (msg) => {
         const a = await msg.react(i);
       }
     }
+    msg.react("718472122988494908");
   } catch (e) {
     console.log(e);
   }
