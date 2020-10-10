@@ -10,7 +10,7 @@ exports.run = async (client, message, args, keyv) => {
   await keyv.set("birthdayId", args[1]);
   await keyv.set("birthdayDate", date.toDateString());
   console.count("test");
-  // message.channel.send(
-  //   `Set Birthday To ${date.toDateString()}  for user ${args[1]}🎉`
-  // );
+  message.channel.send(
+    `Set Birthday To ${date.toDateString()}  for user ${args[1]}🎉`
+  );
 };
