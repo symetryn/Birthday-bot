@@ -33,7 +33,7 @@ client.on("message", async (msg) => {
 });
 
 async function reactBirthday(msg) {
-  const list = ["🎂", "🇧", "🇮", "🇷", "🇹", "🇭", "🇩", "🇦", "🇾", "🎂"];
+  const list = ["🎂", "🇧", "🇮", "🇷", "🇹", "🇭", "🇩", "🇦", "🇾", "🎉"];
 
   for (i of list) {
     await msg.react(i);
