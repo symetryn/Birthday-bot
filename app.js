@@ -1,9 +1,9 @@
-const discord = require("discord.js");
+const Discord = require("discord.js");
 require("dotenv").config();
 const Keyv = require("keyv");
 
 const keyv = new Keyv();
-let client = new discord.Client();
+let client = new Discord.Client();
 
 let store = {};
 client.on("ready", () => {
